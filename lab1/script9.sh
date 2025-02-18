@@ -1,4 +1,4 @@
-#!/bin /bash 
+#!/bin/bash 
 
 totalcounter=0
 

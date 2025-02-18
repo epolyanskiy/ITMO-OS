@@ -92,7 +92,7 @@ grep -Eroh "[a-zA-Z0-9._]+@[a-zA-Z0-9._]+\.[a-zA-Z]{2,}" etc > emails.lst
 cut -d: -f1,3 /etc/passwd | sort -t: -k2 -n
 
 #script9
-#!/bin /bash 
+#!/bin/bash 
 
 totalcounter=0
 

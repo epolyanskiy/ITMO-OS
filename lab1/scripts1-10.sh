@@ -101,4 +101,4 @@ wc -l /var/log/*.log | tail -n1
 #script10
 #!/bin/bash
 
-man bash | tr -cs '[:alnum:]' '[\n*]' | awk 'length($0) >= 4' | sort | uniq -c | sort -nr | head -n 3
+man bash | tr -cs '[:alnum:]' '\n' | awk 'length($0) >= 4' | sort | uniq -c | sort -nr | head -3

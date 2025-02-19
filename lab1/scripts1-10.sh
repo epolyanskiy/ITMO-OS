@@ -84,7 +84,7 @@ grep "ERROR" "$logfile" >> 1.log
 #script7
 #!/bin/bash
 
-grep -Eroh "[a-zA-Z0-9._]+@[a-zA-Z0-9._]+\.[a-zA-Z]{2,}" etc > emails.lst
+grep -Eroh "[a-zA-Z0-9._]+@[a-zA-Z0-9._]+\.[a-zA-Z]{2,}" /etc > emails.lst
 
 #script8
 #!/bin/bash

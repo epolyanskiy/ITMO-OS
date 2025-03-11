@@ -1,0 +1,4 @@
+PID:CMD:READED_BYTES
+3074:/usr/libexec/ptyxis-agent --socket-fd=3:38608916
+13590:/usr/bin/bash:1029327
+2236:/usr/bin/gnome-shell:193569

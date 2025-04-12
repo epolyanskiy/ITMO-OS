@@ -25,9 +25,9 @@ trap 'handle_sigterm' SIGTERM
 
 while true; do
     sleep 1
-    if [[ "$MODE" == "ожидание" ]]; then
+    if [[ "$MODE" == "wait" ]]; then
         continue
-    elif [[ "$MODE" == "сложение" ]]; then
+    elif [[ "$MODE" == "+" ]]; then
         RESULT=$((RESULT + 2))
     else
         RESULT=$((RESULT * 2))
